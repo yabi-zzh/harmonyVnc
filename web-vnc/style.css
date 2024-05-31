@@ -1,0 +1,156 @@
+body, h1, ul, p {
+  margin: 0;
+  padding: 0; }
+
+li {
+  list-style: none; }
+
+* {
+  box-sizing: border-box;
+  font-family: "Microsoft YaHei"; }
+
+.no-border {
+  border: none !important; }
+
+.clear {
+  zoom: 1; }
+
+.clear:after {
+  content: "";
+  display: block;
+  clear: both; }
+
+.main {
+  width: 1000px;
+  margin: 0 auto; }
+
+.mobile {
+  float: left;
+  width: 370px; }
+  .mobile .screen {
+    border: 5px solid #000; }
+    .mobile .screen div {
+      padding-top: 177.778%;
+      position: relative; }
+    .mobile .screen canvas, .mobile .screen .canvas-mask {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%; }
+    .mobile .screen .canvas-mask {
+      opacity: .5;
+      background: #fff; }
+  .mobile span {
+    margin-top: -5px;
+    float: left;
+    width: 33.333%;
+    text-align: center;
+    background: #000;
+    color: #fff;
+    cursor: pointer; }
+    .mobile span:active {
+      background: #6f6f6f; }
+  .mobile h1 {
+    text-align: center;
+    font: 16px/30px "Microsoft YaHei"; }
+  .mobile.mobile-l {
+    width: 650px; }
+    .mobile.mobile-l .screen div {
+      padding-top: 56.25%; }
+
+.opts {
+  float: right;
+  width: 620px;
+  padding: 25px 0 0; }
+  .opts ul {
+    margin-bottom: 20px; }
+  .opts li {
+    margin: 5px;
+    width: 60px;
+    float: left;
+    text-align: center;
+    border: 1px solid #6583cc;
+    color: #6583cc;
+    font: 14px/30px "Microsoft YaHei";
+    cursor: pointer;
+    border-radius: 4px; }
+    .opts li:active, .opts li.active {
+      background: #6583cc;
+      color: #fff; }
+    .opts li.divider {
+      float: none;
+      clear: both;
+      border: none; }
+  .opts .input-wrap {
+    display: block;
+    position: relative;
+    padding: 0 70px 0 60px;
+    max-width: 450px;
+    margin-bottom: 10px; }
+    .opts .input-wrap span, .opts .input-wrap em, .opts .input-wrap a {
+      position: absolute;
+      width: 60px;
+      text-align: right; }
+    .opts .input-wrap span {
+      top: 0;
+      left: 0; }
+    .opts .input-wrap a {
+      right: 0;
+      top: 0;
+      text-align: center;
+      border: 1px solid #6583cc;
+      color: #6583cc;
+      font-size: 14px;
+      cursor: pointer;
+      border-radius: 4px; }
+      .opts .input-wrap a:active {
+        background: #6583cc;
+        color: #fff; }
+    .opts .input-wrap em {
+      top: 30px;
+      left: 0;
+      font-style: normal; }
+    .opts .input-wrap > * {
+      height: 30px;
+      line-height: 30px; }
+    .opts .input-wrap input {
+      width: 100%;
+      display: block;
+      padding: 0 20px 0 10px; }
+    .opts .input-wrap .clear-away {
+      display: none;
+      position: absolute;
+      top: 9px;
+      right: 75px;
+      width: 12px;
+      height: 12px;
+      background: #6583cc;
+      border-radius: 50%;
+      cursor: pointer; }
+    .opts .input-wrap .clear-away:before, .opts .input-wrap .clear-away:after {
+      position: absolute;
+      left: 1px;
+      top: 5px;
+      width: 10px;
+      height: 2px;
+      background: #fff;
+      display: block;
+      content: ""; }
+    .opts .input-wrap .clear-away:before {
+      transform: rotateZ(45deg); }
+    .opts .input-wrap .clear-away:after {
+      transform: rotateZ(-45deg); }
+
+.info {
+  float: left;
+  width: 620px;
+  padding: 10px; }
+
+.mobile-l + .opts, .mobile-l + .info {
+  width: 340px; }
+
+h2 {
+  font: 14px/30px "Microsoft YaHei"; }
+
+/*# sourceMappingURL=style.css.map */
