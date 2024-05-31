@@ -13,7 +13,7 @@
 - 支持：返回、Home、多任务、横屏等
 
 ### 运行方式 ###
-需要准备好hdc环境和next手机
+需准备jdk（最低1.8）、hdc环境、next 手机
 ```
 java -jar harmonyVnc.jar -t udid -p port
 ```
