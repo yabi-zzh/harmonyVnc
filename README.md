@@ -14,6 +14,11 @@
 
 ### 运行方式 ###
 需准备jdk（最低1.8）、hdc环境、next 手机
+
+先查看设备的udid
+```
+hdc list targets
+```
 ```
 java -jar harmonyVnc.jar -t udid -p port
 ```
@@ -23,6 +28,11 @@ java -jar harmonyVnc.jar -t udid -p port
 ```
 执行后当命令行输出：start server port，说明启动成功。
 
-然后打开web-vnc中的index.html，在页面port输入框内输入命令行传入的port，点击连接
+具体操作，看下面视频。
+
+### 同屏效果 ###
+**BiliBili**
+https://www.bilibili.com/video/BV15w4m1q74f/
+···
 
 **使用有问题请提 Issues**
