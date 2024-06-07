@@ -27,11 +27,4 @@ java -jar harmonyScrcpy.jar
 
 目前只支持连接到第一个查询到的设备！！！
 
-具体操作，看下面视频。
-
-### 同屏效果 ###
-**BiliBili**
-https://www.bilibili.com/video/BV15w4m1q74f/
-···
-
 **使用有问题请提 Issues**
