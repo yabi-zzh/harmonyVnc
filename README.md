@@ -3,7 +3,8 @@
 ### 软件说明 ###
 该程序只支持**HarmonyOS Next**版同屏，如需**Android**版本请使用[**scrcpy**](https://github.com/Genymobile/scrcpy)。
 
-更新：简易版的 JFrame 版
+2024-06-19：**BiliBili**
+https://www.bilibili.com/video/BV1BBgPefE5U/
 
 ### 功能说明 ###
 - 帧率：14帧左右每秒
